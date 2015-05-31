@@ -6,7 +6,7 @@ require 'pry'
 require 'nokogiri'
 require 'rest_client'
 require 'ruby-progressbar'
-
+require 'crawler_rocks'
 
 class Crawler
   include Capybara::DSL
